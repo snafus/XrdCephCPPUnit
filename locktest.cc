@@ -16,9 +16,9 @@ void locktest :: setUp (void)
 {
     TestFixture::setUp();
     // ensure an existing file
-    struct stat buf, *bufp = &buf;
-    int rc = ceph_posix_stat((XrdOucEnv*)NULL, "dteam:test/jwalder/testfile", bufp);
-    CPPUNIT_ASSERT_EQUAL(rc,0);
+    //struct stat buf, *bufp = &buf;
+    //int rc = ceph_posix_stat((XrdOucEnv*)NULL, "dteam:test/jwalder/testfile", bufp);
+    //CPPUNIT_ASSERT_EQUAL(rc,0);
 
     
 }
