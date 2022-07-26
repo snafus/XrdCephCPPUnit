@@ -24,7 +24,7 @@ void cephposixtest :: setUp (void)
 
 void cephposixtest :: tearDown (void)
 {
-    ceph_posix_disconnect_all();
+    // ceph_posix_disconnect_all();
     TestFixture::tearDown();
 }
 
